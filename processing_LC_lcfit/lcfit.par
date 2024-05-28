@@ -1,0 +1,93 @@
+# COMMENTS can be included in this paremeter file by preceding the line with `#`.
+
+-v
+--seed    42
+#--degrade_lc
+
+################################################################################
+#    I / O    P A R A M E T E R S
+
+--rootdir    .
+
+#--input_list    Crestani_T/Test/Test_DR3.lst
+--input_list    DR3.lst
+
+#--input_dir    Crestani_T/Test/Test_Time
+--input_dir    DR3_time_series_g
+
+--input_lc_suffix    .dat
+#--input_lc_prefix
+
+--gls_input_file    gls_input.dat
+
+#--plot_dir    Crestani_T/Test/lcplots_Test
+--plot_dir    lcplots_test_DR3
+--plot_suffix    _gpr
+#################phased light curves##########
+--output_data_dir    DR3_LC_g
+#--output_data_dir    Crestani_T/Test/Test_LC
+
+--output_syn_dir    synlc_test
+--syn_suffix    _syn
+
+--output_gpr_dir    gpr_test
+
+#--merged_output_datafile    test_all.dat
+--output_param_file    meta_crestani.dat
+#--output_param_file    Crestani_T/Test/Test_meta.dat
+
+
+
+--n_data_cols    1
+--use_data_cols    1
+#--is_err_col
+#--is_zperr_col
+#--known_data_cols
+
+--plot_data
+--save_figures
+
+--n_jobs    -1
+
+################################################################################
+#    R E G R E S S I O N    P A R A M E T E R S
+
+#--min_snr    20
+#--flag_omit    x
+
+#--fold_double_period
+#--feh_model_file    model_mc1_poly1.3_RRab.sav
+#--pca_model_file    rrab_fourier_pca.sav
+
+--plot_gpr
+#--plot_all_datasets
+--waveband   g
+#--plot_augmented
+
+
+--fit_period
+#--do_gls
+#--redo_gls
+#--weighted_fit
+--loss    huber
+--sigma_clip_threshold    3.0
+--compute_errors
+--nsyn    120
+--align_phi1
+--gpr_fit
+--gpr_hparam_optimization    mle
+--gpr_cv_n_init    50
+--gpr_cv_n_calls    50
+#--lower_length_scale_bound    0.1
+#--upper_length_scale_bound    10.0
+
+--fourier_from_gpr
+#--n_augment_data 9
+--k_fold    10
+--fourier_order_min    4
+--fourier_order_max    6
+
+--mean_phase21   9.1
+--mean_phase31   5.88
+--mean_phase2    2.755
+--mean_phase3    -0.446
