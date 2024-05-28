@@ -11,5 +11,7 @@ metallicity prediction method on extensive photometric datasets, followed by the
 Neural Network (RNNs) to regress [Fe/H] values based on light curves in alternate wavelength bands. These
 three RNNs include the Long Short-Term Memory RNN, the Gated Recurrent Unit (a faster and simpler
 version of LSTM), and a transfer-learned LSTM that enhances the capabilities of the initial LSTM for the
-metallicity prediction of new Gaia data release.
+metallicity prediction of new Gaia data release. Morover, as an initial step, I have implemenetd an XGBoost as well.
 ![](variable.gif)
+
+
