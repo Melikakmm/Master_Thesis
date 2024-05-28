@@ -14,4 +14,8 @@ version of LSTM), and a transfer-learned LSTM that enhances the capabilities of 
 metallicity prediction of new Gaia data release. Morover, as an initial step, I have implemenetd an XGBoost as well.
 ![](variable.gif)
 
+The result:
+
+![](plot/LSTM_VS_GRU_VS_TL_test.png)
+
 
