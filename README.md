@@ -17,5 +17,6 @@ metallicity prediction of new Gaia data release. Morover, as an initial step, I 
 The result:
 
 ![](plot/LSTM_VS_GRU_VS_TL_test.png)
+![](plot/LSTM_VS_TL_test.png)
 
 
