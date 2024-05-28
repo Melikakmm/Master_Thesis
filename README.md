@@ -12,5 +12,4 @@ Neural Network (RNNs) to regress [Fe/H] values based on light curves in alternat
 three RNNs include the Long Short-Term Memory RNN, the Gated Recurrent Unit (a faster and simpler
 version of LSTM), and a transfer-learned LSTM that enhances the capabilities of the initial LSTM for the
 metallicity prediction of new Gaia data release.
-
 ![](variable.gif)
