@@ -15,12 +15,12 @@ metallicity prediction of new Gaia data release. Morover, as an initial step, I 
 ![](variable.gif)
 
 
-###### The datasets:
+#### The datasets:
 ![](plot/pf_phi31_A.png)
 ![](plot/pf_phi31_B.png)
 ![](plot/pf_phi31_C.png)
 
-##### The final result:
+#### The final result:
 
 
 ![](plot/result.png)
