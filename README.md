@@ -25,5 +25,29 @@ metallicity prediction of new Gaia data release. Morover, as an initial step, I 
 
 ![](plot/result.png)
 
+#### The Comparison between the methods:
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{c | c | c | c | c | c}
+    \hline
+    model&data(train)&data(predict)&regression task&tunning&log rmse error(dex)\\
+    \hline
+    XGB & A & A & no & yes & -1.45 \\
+    \hline
+    XGB & B & B & no & yes & -0.89 \\
+    \hline
+    XGB & C & C & no & yes & -1.14\\
+    \hline
+    LSTM & A & B & yes & yes & -1.36 \\
+    \hline
+    GRU & A & B & yes & yes & -1.32 \\
+    \hline
+    TL LSTM & A to B & B & yes & yes & -1.50 \\
+    \hline
+    \end{tabular}
+    
+    \caption{conclusion}
+    \label{tab:my_label}
+\end{table}
 
 
