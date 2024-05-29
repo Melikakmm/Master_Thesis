@@ -21,9 +21,10 @@ metallicity prediction of new Gaia data release. Morover, as an initial step, I 
 ![](plot/pf_phi31_C.png)
 
 #### The final result:
-
-
 ![](plot/result.png)
+
+###### The comparison between the LSTM and the transfer-learnt LSTM:
+![](plot/result_TL.png)
 
 #### The Comparison between the methods:
 
