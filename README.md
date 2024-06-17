@@ -5,7 +5,7 @@ abundance and light curve features. However, achieving precise and consistent ca
 photometric wavelengths has posed a persistent challenge. Numerous pioneering studies have proposed
 cutting-edge techniques to address this issue. In this project, we employ a combination of machine learning
 and three deep learning approaches. Our machine learning approach explores the feasibility of predicting
-metallicity from the Fourier Transform parameters of RRL light curves, while the three deep learning methods
+metallicity from the **Fourier Transform parameters** of RRL light curves, while the three deep learning methods
 aim to perform regression from one photometric band to another. In essence, we first employ an existing
 metallicity prediction method on extensive photometric datasets, followed by the training of three Recurrent
 Neural Network (RNNs) to regress [Fe/H] values based on light curves in alternate wavelength bands. These
