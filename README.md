@@ -1,4 +1,4 @@
-### Testing deep learning and machine learning methods to estimate the metallicity of RR Lyrae stars from the shape of their light curves
+### Testing deep learning and machine learning methods to estimate the metallicity of RR Lyrae stars from the shape of their light curves using Fourier Transform parameters
 
 RR Lyrae stars are invaluable as chemical tracers due to their well-established link between heavy-element
 abundance and light curve features. However, achieving precise and consistent calibration across diverse
